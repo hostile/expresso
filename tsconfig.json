@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es2020",
+    "module": "Node16",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@type/*": ["./src/types/*"],
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  }
+}
